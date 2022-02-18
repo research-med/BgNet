@@ -1,2 +1,2 @@
 # BgNet
-The code will be published after sorting
+The code will be released after sorting

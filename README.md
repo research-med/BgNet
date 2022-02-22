@@ -8,7 +8,8 @@ For example:
 
 data_root = '/path/to/your/data'
 
-```train.json
+```json
+train.json
 {
     "images": [
         {
@@ -50,7 +51,7 @@ data_root = '/path/to/your/data'
 
 The specific example of JSON file is as follows, the absolute path of 0001.DCM is /path/to/your/data/0001.DCM
 
-```
+```json
 {
     "images": [
         {

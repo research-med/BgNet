@@ -91,7 +91,7 @@ The specific example of JSON file is as follows, the absolute path of 0001.DCM i
 }
 ```
 
-you should modify the `config/base/base/comm_config.py`:
+you should modify the `config/base/comm_config.py`:
 
 ```
 train_json = 'to your train.json'

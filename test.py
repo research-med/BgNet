@@ -155,8 +155,6 @@ def main():
     else:
         from mmcls.datasets import ImageNet
         warnings.simplefilter('once')
-        warnings.warn('Class names are not saved in the checkpoint\'s '
-                      'meta data, use imagenet by default.')
         CLASSES = ImageNet.CLASSES
 
     patient_ids = None

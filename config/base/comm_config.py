@@ -49,8 +49,6 @@ test_pipeline = [
 
 train_json = '/path/to/your/train.json'
 test_json = '/path/to/your/test.json'
-
-# 数据集设置
 data_root = '/path/to/your/data'
 dataset_type = 'SpineDataset'
 

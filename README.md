@@ -119,10 +119,10 @@ The checkpoint will be saved ./work_dirs/4_bg_axi_sag/
 
 with age information
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 sh dist_test.sh work_dirs/4_bg_axi_sag/4_bg_axi_sag.py  work_dirs/4_bg_axi_sag/latest.pth 4 --metrics accuract --age
+CUDA_VISIBLE_DEVICES=0,1,2,3 sh dist_test.sh work_dirs/4_bg_axi_sag/4_bg_axi_sag.py  work_dirs/4_bg_axi_sag/latest.pth 4 --metrics accuracy --age
 ```
 
 without age information
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 sh dist_test.sh work_dirs/4_bg_axi_sag/4_bg_axi_sag.py  work_dirs/4_bg_axi_sag/latest.pth 4 --metrics accuract
+CUDA_VISIBLE_DEVICES=0,1,2,3 sh dist_test.sh work_dirs/4_bg_axi_sag/4_bg_axi_sag.py  work_dirs/4_bg_axi_sag/latest.pth 4 --metrics accuracy
 ```
